@@ -3,7 +3,7 @@ A simple Fornite offset dumper.
 
 
 # Info
-I couldn't get a full source because it's so high in size, you can download it here full src: !https://github.com/DevRcs/Fortnite-Offset-dumper/releases/tag/Fortnite (Full Source Code Download)
+I couldn't get a full source because it's so high in size, you can download it here full src: ! https://github.com/DevRcs/Fortnite-Offset-dumper/releases/tag/Fortnite (Full Source Code Download)
 
 # _Class()
 • `string? Name;` -> The output name of the class. Anything non alphanumeric will be regexed out, and spaces replaced with '_'.
