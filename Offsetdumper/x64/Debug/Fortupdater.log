@@ -1,0 +1,9 @@
+﻿  Assembling spoofinternal.asm...
+  dllmain.cpp
+C:\Users\orang\Desktop\Offsetdumper\dllmain.cpp(14,20): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\orang\Desktop\Offsetdumper\dllmain.cpp(15,20): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\orang\Desktop\Offsetdumper\dllmain.cpp(16,20): error C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  FortUpdater.cpp
+  Generating Code...
+C:\Users\orang\Desktop\Offsetdumper\FortUpdater.cpp(140): warning C4715: 'FortUpdater::FindOffset': not all control paths return a value
+C:\Users\orang\Desktop\Offsetdumper\FortUpdater.cpp(201): warning C4172: returning address of local variable or temporary: return_string

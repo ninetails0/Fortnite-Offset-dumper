@@ -1,0 +1,79 @@
+#pragma once
+#include <windows.h>
+#include <cstdint>
+#include <Psapi.h>
+#include <vector>
+#include <locale>
+#include <String>
+#include <d3d11.h>
+#include <iostream>
+#include <fstream>
+
+namespace Offsets
+{
+	DWORD OwningGameInstance;
+	DWORD Levels;
+	DWORD PersistentLevel;
+	DWORD AActors;
+	DWORD LocalPlayers;
+	DWORD PlayerController;
+	DWORD ControlRotation;
+	PVOID SetControlRotation;
+	DWORD RemoteViewPitch;
+	DWORD AcknowledgedPawn;
+	DWORD PlayerCameraManager;
+	DWORD PlayerState;
+	DWORD RelativeLocation;
+	DWORD ComponentVelocity;
+	PVOID GetPlayerName;
+	PVOID SetActorHiddenInGame;
+	DWORD CustomTimeDilation;
+	DWORD RootComponent;
+	DWORD Mesh;
+	DWORD ComponentToWorld;
+	DWORD StaticMesh;
+	DWORD CachedWorldSpaceBounds;
+	DWORD bIsDBNO;
+	DWORD bIsDying;
+	DWORD CurrentWeapon;
+	DWORD BoostMinPushForce;
+	DWORD BoostTopSpeedForceMultiplier;
+	DWORD BoostTopSpeedMultiplier;
+	DWORD LandTopSpeedMultiplier;
+	DWORD LandPushForceMultiplier;
+	DWORD BoostSteeringMultiplier;
+	DWORD LandSteeringMultiplier;
+	DWORD LandMinSpeedSteeringAngle;
+	DWORD LandMaxSpeedSteeringAngle;
+	DWORD PrimaryPickupItemEntry;
+	DWORD ItemDefinition;
+	DWORD DisplayName;
+	DWORD Tier;
+	DWORD TeamIndex;
+	DWORD LastFireTime;
+	DWORD LastFireTimeVerified;
+	DWORD WeaponData;
+	DWORD LastFireAbilityTime;
+	DWORD WeaponStatHandle;
+	DWORD FireStartLoc;
+	//Reload
+	DWORD ReloadTime;
+	DWORD ReloadScale;
+	DWORD ChargeDownTime;
+	DWORD CharacterMovement;
+	//No Recoil
+	DWORD RecoilHoriz;
+	DWORD RecoilVert;
+	DWORD RecoilDownsightsMultiplier;
+	//No Spread
+	DWORD Spread;
+	DWORD SpreadDownsights;
+	DWORD StandingStillSpreadMultiplier;
+	DWORD AthenaJumpingFallingSpreadMultiplier;
+	DWORD AthenaCrouchingSpreadMultiplier;
+	DWORD AthenaSprintingSpreadMultiplier;
+	DWORD MinSpeedForSpreadMultiplier;
+	DWORD MaxSpeedForSpreadMultiplier;
+	DWORD bAlreadySearched;
+
+}
