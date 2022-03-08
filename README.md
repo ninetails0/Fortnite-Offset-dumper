@@ -1,5 +1,5 @@
 # RCS FORTNITE OFFSETS Dumper
-A simple wow offset dumper.
+A simple Fornite offset dumper.
 
 # _Class()
 • `string? Name;` -> The output name of the class. Anything non alphanumeric will be regexed out, and spaces replaced with '_'.
